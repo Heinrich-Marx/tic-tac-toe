@@ -15,7 +15,7 @@ describe('TicTacToe', () => {
             expect(game.getCurrentPlayerSymbol()).to.equal('x')
 
             game.nextTurn(0, 2)
-            expect(game.getCurrentPlayerSymbol()).to.equal('o')
+            expect(game.getCurrentPlayerSymbol()).to.equal('o')        
 
             game.nextTurn(0, 0)
             expect(game.getCurrentPlayerSymbol()).to.equal('x')
